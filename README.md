@@ -28,6 +28,8 @@
 
 1. Navigate to DA page on vtop and select Semester - Check the due dates. ✌🏻😎
    Note:let it load first then go to upload the DA...
+  
+- Tip: Click on the home button on navbar to exit RaOG themed VTOP 😥 😥 
 
 ## Example
 
