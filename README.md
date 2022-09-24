@@ -32,4 +32,5 @@
 
 # Note
 
-commit changes with comment starting "Deploy:" if there are changes in docs and need to be pushed on prod. The CICD pipeline will ensure to push changes in docs on prod on receiving a commit with a comment starting with "Deploy:"
+Style changes can be made under the function styling() in the content.js file (line 213) 
+*** Nothing Else To Be Touched until I give the permission 😎 ***
