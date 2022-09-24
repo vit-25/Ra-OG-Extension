@@ -2,7 +2,10 @@
 ### before uploading to raog github group
 - Change the name of extension everywhere from Ex-Top to RaOG TOP
 - Theme the whole website (atleast the necessary menus)
-- Any ideas can be written below 👇 
+- Update Manifest V2 to V3 without breaking the code
+- Any attempts to clean the code is highly welcomed 🙏 
+
+* Any ideas can be written below 👇 
 
 ## Ideas
 - BigButt Aniket walking loading icon
