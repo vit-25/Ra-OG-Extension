@@ -32,5 +32,5 @@
 
 # Note
 
-Style changes can be made under the function styling() in the content.js file (line 213) 
-*** Nothing Else To Be Touched until I give the permission 😎 ***
+Style changes can be made under the function styling() in the content.js file (line 213)__
+***Nothing Else To Be Touched until I give the permission 😎***
