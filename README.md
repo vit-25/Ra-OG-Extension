@@ -1,3 +1,13 @@
+## To-Do 
+### before uploading to raog github group
+- Change the name of extension everywhere from Ex-Top to RaOG TOP
+- Theme the whole website (atleast the necessary menus)
+- Any ideas can be written below 👇 
+
+## Ideas
+- BigButt Aniket walking loading icon
+
+
 ## Installation
 
 - Go to [chrome://extensions](chrome://extensions) - Chrome Extensions
