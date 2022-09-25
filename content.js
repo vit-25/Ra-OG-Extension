@@ -218,19 +218,116 @@ function styling() {
   background.setAttribute("style", " background-color: #28282B"); //bg colour for all pages
   mainpagebg.setAttribute("style", " background-color: #28282B"); //bg colour for main page
   mainpagebr.setAttribute("style", " z-index: 10"); //border radius for main page
-  mainpagebg.insertBefore(strr, mainpagebg.childNodes[0]);
+
+  mainpagebg.insertBefore(strr, mainpagebg.childNodes[0]); //RAOG background for mainpage
   strr.setAttribute(
     "style",
     "height: 100%; width: 100%; position: absolute; top: 0; left: 0; background-color: #28282B;"
   );
   strr.innerHTML = `
-  <img src="https://i.imgur.com/0TPQdkb.png" alt="RAOGYUH" width="100%" height="100%">
+  <img src="https://i.postimg.cc/fyQdz4SH/21346-min.png" id = "bugfix" alt="RAOGYUH" width="100%" height="100%">
 
   `;
 
+  var header = document.getElementBy;
+
   var leftNav = document.getElementById("sidePanel");
-  leftNav.style = "background-color: rgb(89 89 89);"; //left nav bg colour
+  leftNav.style = "background-color: rgb(0 0 0);"; //left nav bg colour
 
   var navBar = document.getElementsByClassName("headerBackgroundColor");
   navBar[0].style = "background: rgb(0 0 0)!important;"; //nav bar bg colour
+
+  var icons = document.querySelectorAll(".fa"); //nav bar icons colour
+  icons.forEach((fa) => fa.setAttribute("style", "color: #eaeaea;"));
+
+  let homeCard = document.querySelectorAll(".card");
+  homeCard[0].style.backgroundColor = "rgb(0 ,0 ,0, 0.1)"; //selects all cards in VTOP (lower div)
+  homeCard[1].style.backgroundColor = "rgb(0 ,0 ,0, 0.1)"; //upper div
+  homeCard[0].style.border = "2px solid rgb(211, 46, 46)";
+  homeCard[0].style.borderRadius = "30px";
+  homeCard[0].style.boxShadow = "0 0 10px 0 rgb(211, 46, 46)";
+
+  var homeCardText = document.querySelectorAll(".list-group-item");
+  homeCardText.forEach((listgroupitem) =>
+    listgroupitem.setAttribute(
+      "style",
+      "background-color: 	rgb(250, 250, 247, 0.0)!important;"
+    )
+  );
+
+  var homeCardText = document.querySelectorAll(".fg-black");
+  homeCardText.forEach((blacktxt) =>
+    blacktxt.setAttribute("style", "color: white!important;")
+  );
+
+  var dropDown = document.querySelectorAll(".dropdown-menu"); //changes for dropdown menus
+  dropDown.forEach((dropdown) =>
+    dropdown.setAttribute(
+      "style",
+      "background: rgb(29,29,29); background: linear-gradient(66deg, rgba(29,29,29,1) 0%, rgba(41,41,62,1) 47%, rgba(6,6,20,1) 100%); border-radius: 20px; box-shadow: 0 0 10px 0 rgb(211, 46, 46); border:1px solid rgb(211, 46, 46)!important;"
+    )
+  );
+
+  var allBoxes = document.querySelectorAll(".box"); //change colour of all boxes in vtop to dark grey
+  allBoxes.forEach((ab) => (ab.style.backgroundColor = "rgb(28 15 15)"));
+
+  var btns = document.querySelectorAll(".btn-sm"); //Change colour of spotlight buttons to red
+  btns.forEach((btn) => (btn.style.backgroundColor = "rgb(211, 46, 46)"));
+
+  document
+    .getElementsByClassName("h3")[0]
+    .setAttribute("style", "color: white!important"); //Change colour of Spotlight text to white
+
+  document.querySelectorAll(".offcanvas-body")[8].style.backgroundColor =
+    "rgb(255 70 70)";
+
+  var swiper = document.querySelectorAll(".offcanvas-header"); //changes for dropdown menus
+  swiper.forEach((dropdown) =>
+    dropdown.setAttribute("style", "background: black;")
+  );
+
+  var imgReplace = document.getElementsByClassName("img-circle"); // Sravan Senthil Nathan Avatar
+  imgReplace[0].src = "https://i.postimg.cc/3WPn7f7Y/senthil.jpg";
+  imgReplace[1].src = "https://i.postimg.cc/bvzpjmvQ/senthil.jpg";
+  imgReplace[2].src = "https://i.postimg.cc/bvzpjmvQ/senthil.jpg";
+
+  var gifReplace = document.getElementsByClassName("img-fluid"); // gif booty
+  gifReplace[0].src =
+    "https://media.tenor.com/images/fbf050f38146a5e56111b1bdf2845841/tenor.gif";
+
+  var aText = document.querySelectorAll(".dropdown-item");
+  aText.forEach((txt) =>
+    txt.setAttribute("style", "color: rgb(211, 46, 46); font-weight: bold;")
+  );
+
+  var aHead = document.querySelectorAll(".menuHeaderColor");
+  aHead.forEach((txt) =>
+    txt.setAttribute(
+      "style",
+      "background-color: #070b0f; font-weight: bold; color: white; border-radius:30px"
+    )
+  );
+
+  var rmHighlight = document.querySelectorAll(".list-group-item-action"); //remove white hover for spotlight card
+  rmHighlight.forEach((txt) =>
+    txt.setAttribute("style", "background-color: black;")
+  );
+
+  var signOut = document.getElementsByClassName("btn-success");
+  signOut[0].style.backgroundColor = "rgb(211, 46, 46)";
+  signOut[0].style.borderColor = "rgb(211, 46, 46)";
+}
+
+document.addEventListener("DOMContentLoaded", bugOne);
+function bugOne() {
+  var strr = document.createElement("div");
+  var background = document.getElementById("b3wrapper");
+  background.insertBefore(strr, background.childNodes[0]); //RAOG Background for all pages
+  strr.setAttribute(
+    "style",
+    "height: 100%; width: 100%; position: absolute; top: 0; left: 0; background-color: #28282B;"
+  );
+  strr.innerHTML = `
+  <img src="https://i.postimg.cc/fyQdz4SH/21346-min.png" alt="RAOGYUH" width="100%" height="100%">
+  `;
 }

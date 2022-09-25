@@ -1,16 +1,3 @@
-## To-Do 
-### before uploading to raog github group
-- Change the name of extension everywhere from Ex-Top to RaOG TOP
-- Theme the whole website (atleast the necessary menus)
-- Update Manifest V2 to V3 without breaking the code
-- Any attempts to clean the code is highly welcomed 🙏 
-
-* Any ideas can be written below 👇 
-
-## Ideas
-- BigButt Aniket walking loading icon
-
-
 ## Installation
 
 - Go to [chrome://extensions](chrome://extensions) - Chrome Extensions
@@ -28,8 +15,6 @@
 
 1. Navigate to DA page on vtop and select Semester - Check the due dates. ✌🏻😎
    Note:let it load first then go to upload the DA...
-  
-- Tip: Click on the home button on navbar to exit RaOG themed VTOP 😥 😥 
 
 ## Example
 
@@ -37,5 +22,4 @@
 
 # Note
 
-Style changes can be made under the function styling() in the content.js file (line 213)__
-***Nothing Else To Be Touched until I give the permission 😎***
+commit changes with comment starting "Deploy:" if there are changes in docs and need to be pushed on prod. The CICD pipeline will ensure to push changes in docs on prod on receiving a commit with a comment starting with "Deploy:"
