@@ -27,4 +27,6 @@
 
 # Note
 
-commit changes with comment starting "Deploy:" if there are changes in docs and need to be pushed on prod. The CICD pipeline will ensure to push changes in docs on prod on receiving a commit with a comment starting with "Deploy:"
+- Recommendations or issues can be made at ~[Issues](https://github.com/vit-25/Ra-OG-Extension/issues)
+- For contributing and PR's contact ![Merkio](https://github.com/Prathyush-KKK)
+- teri mami 😂
