@@ -206,6 +206,7 @@ chrome_().runtime.onMessage.addListener(function (
 document.addEventListener("DOMContentLoaded", styling);
 /* Styling RaOg*/
 function styling() {
+  document.documentElement.style.setProperty("--bs-body-color", "white"); //change root colour of all text to whites
   var strr = document.createElement("div");
   var background = document.getElementById("b3wrapper");
   var mainpagebg = document.getElementById("b5wrapper");
@@ -317,6 +318,26 @@ function styling() {
   document
     .querySelectorAll(".navbar-toggler-icon")[0]
     .setAttribute("style", "filter: invert(1);");
+
+  document.querySelector("body").addEventListener("click", function (e) {
+    var anchor = e.target.closest("a");
+    if (anchor !== null) {
+      var x = setInterval(() => {
+        let headr = document.getElementsByClassName("box"); //change colour of all boxes in vtop to dark grey
+        headr[0].setAttribute(
+          "style",
+          "border-radius: 30px; border: 2px solid rgb(211, 46, 46); background: rgb(10 ,10 ,5, 0.6);"
+        );
+        let forms = document.querySelectorAll(".form-select");
+        forms.forEach((txt) =>
+          txt.setAttribute("style", "background-color: black;!important")
+        );
+      }, 100);
+      setTimeout(() => {
+        clearInterval(x);
+      }, 900000);
+    }
+  });
 }
 
 document.addEventListener("DOMContentLoaded", bugOne);
