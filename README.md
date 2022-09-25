@@ -23,10 +23,13 @@
 ![demo](https://i.postimg.cc/Y0r7TWcq/image.png)
 3. Navigate to DA page on vtop and select Semester - Check the due dates. ✌🏻😎
 ![demo](https://i.postimg.cc/hGWHHdTW/image.png)
+4. Super fast!! ⚡💨
+![demo](https://i.postimg.cc/PrgkWc6M/image.png)
 
 
 # Note
-
+- To exit the extensions click on **home** besides VTOP
+![demo](https://i.postimg.cc/cH0xQjLz/image.png)
 - Recommendations or issues can be made at ~[Issues](https://github.com/vit-25/Ra-OG-Extension/issues)
 - For contributing and PR's contact ![Merkio](https://github.com/Prathyush-KKK)
 - teri mami 😂
