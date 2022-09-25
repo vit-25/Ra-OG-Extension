@@ -8,20 +8,15 @@ function chrome_() {
   }
 }
 
-chrome_().storage.local.set({ VTOP_URI: window.location.origin }, function () {
-  console.log("SET THE URL");
-});
+chrome_().storage.local.set(
+  { VTOP_URI: window.location.origin },
+  function () {}
+);
 
 document.addEventListener("DOMContentLoaded", change_navbar);
 
 function change_navbar() {
   try {
-    // var nodes =
-    //   document.getElementsByClassName("btn-group-vertical")[0].children;
-    // for (var i = 1; i < nodes.length; i++) {
-    //   nodes[i].setAttribute("style", "transition-delay: 10s");
-    //
-
     var coursePage = document.createElement("div");
     coursePage.className = "btn-group dropend";
     coursePage.style = style =
@@ -316,6 +311,12 @@ function styling() {
   var signOut = document.getElementsByClassName("btn-success");
   signOut[0].style.backgroundColor = "rgb(211, 46, 46)";
   signOut[0].style.borderColor = "rgb(211, 46, 46)";
+
+  document.getElementsByTagName("body")[0].style.backgroundColor = "black"; //body background colour to black
+
+  document
+    .querySelectorAll(".navbar-toggler-icon")[0]
+    .setAttribute("style", "filter: invert(1);");
 }
 
 document.addEventListener("DOMContentLoaded", bugOne);
