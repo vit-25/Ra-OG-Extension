@@ -5,7 +5,7 @@
 
 ![Turn Dev](https://i.ibb.co/SV7dZMS/turnDev.png)
 
-- Download the latest release from releases page or [click here](https://github.com/vit-25/Ra-OG-Extension/releases/download/Publish/RaOG-Top.zip)
+- Download the latest release from releases page or [click here](https://github.com/vit-25/Ra-OG-Extension/archive/refs/tags/Publish.zip)
 - Unzip the downloaded file.
 - Click on the "Load Unpacked" in extensions page on upper left corner (can be seen in step 2 image)
 - Select the extracted folder.
