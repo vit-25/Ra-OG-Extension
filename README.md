@@ -9,7 +9,11 @@
 - Unzip the downloaded file.
 - Click on the "Load Unpacked" in extensions page on upper left corner (can be seen in step 2 image)
 - Select the extracted folder.
+***or***
+- clone the repository on your machine ~[RAOG-Top](https://github.com/vit-25/Ra-OG-Extension)
+``` git clone https://github.com/vit-25/Ra-OG-Extension```
 - Turn off developer mode _(Recommended - Protects from malicious extensions)_
+
 
 ## Features
 
