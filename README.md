@@ -32,4 +32,4 @@
 ![demo](https://i.postimg.cc/cH0xQjLz/image.png)
 - Recommendations or issues can be made at ~[Issues](https://github.com/vit-25/Ra-OG-Extension/issues)
 - For contributing and PR's contact ![Merkio](https://github.com/Prathyush-KKK)
-- teri mami 😂
+
